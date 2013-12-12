@@ -1,0 +1,456 @@
+GFORTRAN module version '6' created from inifile.f90 on Tue Feb 28 16:30:26 2012
+MD5:7dcc0948ac4934d4d9a8d8a7ca48e2ae -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () () ()
+() () ())
+
+()
+
+()
+
+()
+
+()
+
+()
+
+(2 'defini' 'inifile' 'defini' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+4 'ini_allowduplicatekeys' 'inifile' 'ini_allowduplicatekeys' 1 ((
+VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+5 'ini_close' 'inifile' 'ini_close' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE IMPLICIT_PURE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+6 'ini_close_file' 'inifile' 'ini_close_file' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 7 0 (8) () 0 () () () 0 0)
+9 'ini_echo_read' 'inifile' 'ini_echo_read' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (LOGICAL 4 0 0 LOGICAL ()) 0 0 ()
+() 0 () () () 0 0)
+10 'ini_extractfilepath' 'inifile' 'ini_extractfilepath' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION IMPLICIT_PURE) (
+CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024')))
+11 0 (12) () 10 () () () 0 0)
+13 'ini_fail_on_not_found' 'inifile' 'ini_fail_on_not_found' 1 ((
+VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+14 'ini_haskey' 'inifile' 'ini_haskey' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (LOGICAL 4 0 0 LOGICAL ()) 15 0 (
+16) () 17 () () () 0 0)
+18 'ini_haskey_file' 'inifile' 'ini_haskey_file' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (LOGICAL 4 0 0
+LOGICAL ()) 19 0 (20 21) () 22 () () () 0 0)
+23 'ini_key_to_arraykey' 'inifile' 'ini_key_to_arraykey' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION IMPLICIT_PURE) (
+CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024')))
+24 0 (25 26) () 27 () () () 0 0)
+28 'ini_max_name_len' 'inifile' 'ini_max_name_len' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '128') () 0 ()
+() () 0 0)
+29 'ini_max_string_len' 'inifile' 'ini_max_string_len' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024') () 0 ()
+() () 0 0)
+30 'ini_namevalue_add' 'inifile' 'ini_namevalue_add' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 31 0 (32 33) () 0 () () () 0 0)
+34 'ini_open' 'inifile' 'ini_open' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+UNKNOWN ()) 35 0 (36 37 38 39) () 0 () () () 0 0)
+40 'ini_open_file' 'inifile' 'ini_open_file' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE RECURSIVE
+ALWAYS_EXPLICIT) (UNKNOWN 0 0 0 UNKNOWN ()) 41 0 (42 43 44 45 46 47) ()
+0 () () () 0 0)
+48 'ini_open_fromlines' 'inifile' 'ini_open_fromlines' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 49 0 (50 51 52 53) () 0 () () () 0 0)
+54 'ini_read_double' 'inifile' 'ini_read_double' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (
+REAL 8 0 0 REAL ()) 55 0 (56 57) () 54 () () () 0 0)
+58 'ini_read_double_array' 'inifile' 'ini_read_double_array' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (REAL 8 0 0 REAL ()) 59 0 (60 61 62) () 58 () () () 0 0)
+63 'ini_read_double_array_file' 'inifile' 'ini_read_double_array_file' 1
+((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (REAL 8 0 0 REAL ()) 64 0 (65 66 67 68) () 63 () () ()
+0 0)
+69 'ini_read_double_file' 'inifile' 'ini_read_double_file' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (REAL 8 0 0 REAL ()) 70 0 (71 72 73) () 69 () () () 0 0)
+74 'ini_read_int' 'inifile' 'ini_read_int' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (INTEGER 4 0 0
+INTEGER ()) 75 0 (76 77) () 74 () () () 0 0)
+78 'ini_read_int_array' 'inifile' 'ini_read_int_array' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (
+INTEGER 4 0 0 INTEGER ()) 79 0 (80 81 82) () 78 () () () 0 0)
+83 'ini_read_int_array_file' 'inifile' 'ini_read_int_array_file' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (INTEGER 4 0 0 INTEGER ()) 84 0 (85 86 87 88) () 83 ()
+() () 0 0)
+89 'ini_read_int_file' 'inifile' 'ini_read_int_file' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (
+INTEGER 4 0 0 INTEGER ()) 90 0 (91 92 93) () 89 () () () 0 0)
+94 'ini_read_logical' 'inifile' 'ini_read_logical' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (
+LOGICAL 4 0 0 LOGICAL ()) 95 0 (96 97) () 94 () () () 0 0)
+98 'ini_read_logical_file' 'inifile' 'ini_read_logical_file' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (LOGICAL 4 0 0 LOGICAL ()) 99 0 (100 101 102) () 98 ()
+() () 0 0)
+103 'ini_read_real' 'inifile' 'ini_read_real' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (
+REAL 4 0 0 REAL ()) 104 0 (105 106) () 103 () () () 0 0)
+107 'ini_read_real_array' 'inifile' 'ini_read_real_array' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (
+REAL 4 0 0 REAL ()) 108 0 (109 110 111) () 107 () () () 0 0)
+112 'ini_read_real_array_file' 'inifile' 'ini_read_real_array_file' 1 (
+(PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (REAL 4 0 0 REAL ()) 113 0 (114 115 116 117) () 112 ()
+() () 0 0)
+118 'ini_read_real_file' 'inifile' 'ini_read_real_file' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (
+REAL 4 0 0 REAL ()) 119 0 (120 121 122) () 118 () () () 0 0)
+123 'ini_read_string' 'inifile' 'ini_read_string' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION ALWAYS_EXPLICIT) (
+CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024')))
+124 0 (125 126) () 127 () () () 0 0)
+128 'ini_read_string_array' 'inifile' 'ini_read_string_array' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1024'))) 129 0 (130 131 132) () 133 () () () 0 0)
+134 'ini_read_string_array_file' 'inifile' 'ini_read_string_array_file'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1024'))) 135 0 (136 137 138 139) () 140 () () () 0 0)
+141 'ini_read_string_file' 'inifile' 'ini_read_string_file' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+ALWAYS_EXPLICIT) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1024'))) 142 0 (143 144 145) () 146 () () () 0 0)
+147 'ini_savereadvalues' 'inifile' 'ini_savereadvalues' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 148 0 (149 150) () 0 () () () 0 0)
+151 'ini_savereadvalues_file' 'inifile' 'ini_savereadvalues_file' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 152 0 (153 154 155) () 0 () () () 0 0)
+156 'inifile' 'inifile' 'inifile' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+3 'tinifile' 'inifile' 'tinifile' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 POINTER_COMP) (UNKNOWN 0 0 0 UNKNOWN ())
+0 0 () () 0 ((157 'slashcomments' (LOGICAL 4 0 0 LOGICAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (158 'l' (DERIVED 159 0 0 DERIVED ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (
+160 'readvalues' (DERIVED 159 0 0 DERIVED ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()))
+PUBLIC (() () () ()) () 0 0 17682187)
+161 'tnamevalue' 'inifile' 'tnamevalue' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0
+((162 'name' (CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '128'))) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (163 'value' (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024'))) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0 81507377)
+164 'tnamevalue_pointer' 'inifile' 'tnamevalue_pointer' 1 ((DERIVED
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 POINTER_COMP) (UNKNOWN 0
+0 0 UNKNOWN ()) 0 0 () () 0 ((165 'p' (DERIVED 161 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 POINTER)
+UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0 63637007)
+159 'tnamevaluelist' 'inifile' 'tnamevaluelist' 1 ((DERIVED
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 POINTER_COMP) (UNKNOWN 0
+0 0 UNKNOWN ()) 0 0 () () 0 ((166 'count' (INTEGER 4 0 0 INTEGER ()) ()
+(UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (167 'delta' (INTEGER 4 0 0 INTEGER ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (168 'capacity' (INTEGER 4 0 0 INTEGER ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (169 'ignoreduplicates' (LOGICAL 4 0 0 LOGICAL ()) ()
+(UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (170 'items' (DERIVED 164 0 0 DERIVED ()) (1 0
+DEFERRED () ()) (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DIMENSION POINTER) UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0
+97070703)
+171 'tnamevaluelist_add' 'inifile' 'tnamevaluelist_add' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 172 0 (173 174 175) () 0 () () () 0 0)
+176 'tnamevaluelist_clear' 'inifile' 'tnamevaluelist_clear' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 177 0 (178) () 0 () () () 0 0)
+179 'tnamevaluelist_delete' 'inifile' 'tnamevaluelist_delete' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 180 0 (181 182) () 0 () () () 0 0)
+183 'tnamevaluelist_haskey' 'inifile' 'tnamevaluelist_haskey' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION
+IMPLICIT_PURE) (LOGICAL 4 0 0 LOGICAL ()) 184 0 (185 186) () 187 () () ()
+0 0)
+188 'tnamevaluelist_init' 'inifile' 'tnamevaluelist_init' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT)
+(UNKNOWN 0 0 0 UNKNOWN ()) 189 0 (190 191) () 0 () () () 0 0)
+192 'tnamevaluelist_setcapacity' 'inifile' 'tnamevaluelist_setcapacity'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 193 0 (194 195) () 0 () () () 0 0)
+196 'tnamevaluelist_valueof' 'inifile' 'tnamevaluelist_valueof' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE
+IMPLICIT_PURE) (UNKNOWN 0 0 0 UNKNOWN ()) 197 0 (198 199 200) () 0 () ()
+() 0 0)
+190 'l' '' 'l' 189 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+191 'ignoreduplicates' '' 'ignoreduplicates' 189 ((VARIABLE IN
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL
+()) 0 0 () () 0 () () () 0 0)
+178 'l' '' 'l' 177 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+198 'l' '' 'l' 197 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+199 'aname' '' 'aname' 197 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+200 'avalue' '' 'avalue' 197 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+185 'l' '' 'l' 184 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+186 'aname' '' 'aname' 184 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+187 'avalue' '' 'avalue' 184 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 RESULT) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () ()
+() 0 0)
+173 'l' '' 'l' 172 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+174 'aname' '' 'aname' 172 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+175 'avalue' '' 'avalue' 172 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+194 'l' '' 'l' 193 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+195 'c' '' 'c' 193 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+181 'l' '' 'l' 180 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+182 'i' '' 'i' 180 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+32 'ini' '' 'ini' 31 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+33 'ainline' '' 'ainline' 31 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+36 'filename' '' 'filename' 35 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () ()
+0 0)
+37 'unit_id' '' 'unit_id' 35 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+38 'error' '' 'error' 35 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+39 'slash_comments' '' 'slash_comments' 35 ((VARIABLE IN UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+12 'aname' '' 'aname' 11 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+42 'ini' '' 'ini' 41 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+43 'filename' '' 'filename' 41 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () ()
+0 0)
+44 'unit_id' '' 'unit_id' 41 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+45 'error' '' 'error' 41 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+46 'slash_comments' '' 'slash_comments' 41 ((VARIABLE IN UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+47 'append' '' 'append' 41 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+50 'ini' '' 'ini' 49 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+51 'lines' '' 'lines' 49 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DIMENSION DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () (1 0 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0
+INTEGER ()) 0 52 ())) 0 () () () 0 0)
+52 'numlines' '' 'numlines' 49 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+53 'slash_comments' '' 'slash_comments' 49 ((VARIABLE IN UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () ()
+() 0 0)
+8 'ini' '' 'ini' 7 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+125 'key' '' 'key' 124 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+126 'notfoundfail' '' 'notfoundfail' 124 ((VARIABLE IN UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+127 'avalue' '' 'avalue' 124 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 RESULT ALWAYS_EXPLICIT) (CHARACTER 1 0 0 CHARACTER (
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024'))) 0 0 () () 0 () () () 0
+0)
+143 'ini' '' 'ini' 142 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+144 'key' '' 'key' 142 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+145 'notfoundfail' '' 'notfoundfail' 142 ((VARIABLE IN UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+146 'avalue' '' 'avalue' 142 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 RESULT ALWAYS_EXPLICIT) (CHARACTER 1 0 0 CHARACTER (
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024'))) 0 0 () () 0 () () () 0
+0)
+16 'key' '' 'key' 15 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+17 'avalue' '' 'avalue' 15 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 RESULT) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () ()
+() 0 0)
+20 'ini' '' 'ini' 19 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+21 'key' '' 'key' 19 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+22 'avalue' '' 'avalue' 19 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 RESULT) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () ()
+() 0 0)
+25 'key' '' 'key' 24 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+26 'index' '' 'index' 24 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+27 'avalue' '' 'avalue' 24 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 RESULT) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '1024'))) 0 0 () () 0 () () () 0 0)
+130 'key' '' 'key' 129 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+131 'index' '' 'index' 129 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+132 'notfoundfail' '' 'notfoundfail' 129 ((VARIABLE IN UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+133 'avalue' '' 'avalue' 129 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 RESULT ALWAYS_EXPLICIT) (CHARACTER 1 0 0 CHARACTER (
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024'))) 0 0 () () 0 () () () 0
+0)
+136 'ini' '' 'ini' 135 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+137 'key' '' 'key' 135 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+138 'index' '' 'index' 135 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+139 'notfoundfail' '' 'notfoundfail' 135 ((VARIABLE IN UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+140 'avalue' '' 'avalue' 135 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 RESULT ALWAYS_EXPLICIT) (CHARACTER 1 0 0 CHARACTER (
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1024'))) 0 0 () () 0 () () () 0
+0)
+80 'key' '' 'key' 79 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+81 'index' '' 'index' 79 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+82 'default' '' 'default' 79 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+85 'ini' '' 'ini' 84 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+86 'key' '' 'key' 84 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+87 'index' '' 'index' 84 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+88 'default' '' 'default' 84 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+76 'key' '' 'key' 75 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+77 'default' '' 'default' 75 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+56 'key' '' 'key' 55 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+91 'ini' '' 'ini' 90 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+92 'key' '' 'key' 90 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+93 'default' '' 'default' 90 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+57 'default' '' 'default' 55 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+71 'ini' '' 'ini' 70 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+72 'key' '' 'key' 70 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+73 'default' '' 'default' 70 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+60 'key' '' 'key' 59 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+61 'index' '' 'index' 59 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+62 'default' '' 'default' 59 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+65 'ini' '' 'ini' 64 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+66 'key' '' 'key' 64 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+67 'index' '' 'index' 64 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+68 'default' '' 'default' 64 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+105 'key' '' 'key' 104 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+106 'default' '' 'default' 104 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 OPTIONAL DUMMY) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0
+0)
+120 'ini' '' 'ini' 119 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+121 'key' '' 'key' 119 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+122 'default' '' 'default' 119 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 OPTIONAL DUMMY) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0
+0)
+109 'key' '' 'key' 108 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+110 'index' '' 'index' 108 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+111 'default' '' 'default' 108 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 OPTIONAL DUMMY) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0
+0)
+114 'ini' '' 'ini' 113 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+115 'key' '' 'key' 113 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+116 'index' '' 'index' 113 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+117 'default' '' 'default' 113 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 OPTIONAL DUMMY) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () () 0
+0)
+96 'key' '' 'key' 95 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+97 'default' '' 'default' 95 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+100 'ini' '' 'ini' 99 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+101 'key' '' 'key' 99 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+102 'default' '' 'default' 99 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 OPTIONAL DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+149 'afile' '' 'afile' 148 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0
+() () () 0 0)
+150 'unit_id' '' 'unit_id' 148 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+153 'ini' '' 'ini' 152 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (DERIVED 3 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+154 'afile' '' 'afile' 152 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0 DUMMY) (CHARACTER 1 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
+155 'unit_id' '' 'unit_id' 152 ((VARIABLE IN UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+)
+
+('defini' 0 2 'ini_allowduplicatekeys' 0 4 'ini_close' 0 5
+'ini_close_file' 0 6 'ini_echo_read' 0 9 'ini_extractfilepath' 0 10
+'ini_fail_on_not_found' 0 13 'ini_haskey' 0 14 'ini_haskey_file' 0 18
+'ini_key_to_arraykey' 0 23 'ini_max_name_len' 0 28 'ini_max_string_len'
+0 29 'ini_namevalue_add' 0 30 'ini_open' 0 34 'ini_open_file' 0 40
+'ini_open_fromlines' 0 48 'ini_read_double' 0 54 'ini_read_double_array'
+0 58 'ini_read_double_array_file' 0 63 'ini_read_double_file' 0 69
+'ini_read_int' 0 74 'ini_read_int_array' 0 78 'ini_read_int_array_file'
+0 83 'ini_read_int_file' 0 89 'ini_read_logical' 0 94
+'ini_read_logical_file' 0 98 'ini_read_real' 0 103 'ini_read_real_array'
+0 107 'ini_read_real_array_file' 0 112 'ini_read_real_file' 0 118
+'ini_read_string' 0 123 'ini_read_string_array' 0 128
+'ini_read_string_array_file' 0 134 'ini_read_string_file' 0 141
+'ini_savereadvalues' 0 147 'ini_savereadvalues_file' 0 151 'inifile' 0
+156 'tinifile' 0 3 'tnamevalue' 0 161 'tnamevalue_pointer' 0 164
+'tnamevaluelist' 0 159 'tnamevaluelist_add' 0 171 'tnamevaluelist_clear'
+0 176 'tnamevaluelist_delete' 0 179 'tnamevaluelist_haskey' 0 183
+'tnamevaluelist_init' 0 188 'tnamevaluelist_setcapacity' 0 192
+'tnamevaluelist_valueof' 0 196)

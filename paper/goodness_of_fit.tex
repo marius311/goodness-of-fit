@@ -1,0 +1,170 @@
+%\pdfoutput=1
+\documentclass{emulateapj}
+% please leave aastex line (below) for purposes of regenerating bbl file
+%\documentclass[12pt,preprint2]{aastex}
+
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{epsf}
+\usepackage{color}
+\usepackage{threeparttable}
+\usepackage{comment}
+\usepackage{epsfig}
+\usepackage{xspace}
+\usepackage[usenames,dvipsnames,svgnames]{xcolor}
+\bibliographystyle{fapj}
+\DeclareGraphicsExtensions{.jpg,.pdf,.png,.eps,.ps}
+
+\def\jcap{J. of Cosm. \& Astropart. Phys.}
+
+%% Definitions of useful commands
+ \newcommand{\sigT}{\mbox{$\sigma_{\mbox{\tiny T}}$}}
+ \newcommand{\Tcmb}{\mbox{$T_{\mbox{\tiny CMB}}$}}
+ \newcommand{\kB}{\mbox{$k_{\mbox{\tiny B}}$}}
+ \newcommand{\nH}{\mbox{$n_{\mbox{\tiny H}}$}}
+ \newcommand{\NH}{\mbox{$N_{\mbox{\tiny H}}$}}
+ \newcommand{\rhogas}{\mbox{$\rho_{\mbox{\scriptsize gas}}$}}
+ \newcommand{\Mgas}{\mbox{$M_{\mbox{\scriptsize gas}}$}}
+ \newcommand{\Mtot}{\mbox{$M_{\mbox{\scriptsize tot}}$}}
+ \newcommand{\fgas}{\mbox{$f_{\mbox{\scriptsize gas}}$}}
+ \newcommand{\LCDM}{\mbox{$\Lambda$CDM}\xspace}
+ \newcommand{\LCDMnospace}{\mbox{$\Lambda$CDM}}
+ \newcommand{\omk}{\mbox{$\Omega_{k}$}}
+ \newcommand{\rcore}{\mbox{$r_\mathrm{core}$}}
+ \newcommand{\thcore}{\mbox{$\theta_\mathrm{core}$}}
+ \newcommand{\thcoresq}{\mbox{$\theta^2_\mathrm{core}$}}
+ \newcommand{\ltsima}{$\; \buildrel < \over \sim \;$}
+ \newcommand{\ltsim}{\lower.5ex\hbox{\ltsima}}
+ \newcommand{\tbd}{{\bf \textcolor{red}{TBD}}}
+ \newcommand{\twentythree}{$23^\mathrm{h} 30^\mathrm{m}$}
+ \newcommand{\five}{$5^\mathrm{h} 30^\mathrm{m}$}
+ \newcommand{\atsz}{$A_{\rm tSZ}$}
+ \newcommand{\atszeqn}{A_{\rm tSZ}}
+ \newcommand{\atszcosm}{A_{\rm tSZ}}
+ \newcommand{\modelletter}{\Phi_\ell}
+ \newcommand{\modelnorm}{\Phi_{3000}}
+ \newcommand{\amplitudeletter}{D_{3000}^}
+ \newcommand{\hmsun}{h^{-1} \; M_{\odot}}
+ \newcommand{\sqdeg}{\ensuremath{\mathrm{deg}^2}}
+ \newcommand{\sze}{Sunyaev-Ze\v{l}dovich Effect}
+ \newcommand{\eg}{\textit{e.g.}}
+ \newcommand{\ie}{\textit{i.e.}}
+ \newcommand{\neff}{\ensuremath{N_\mathrm{eff}}\xspace}
+ \newcommand{\yhe}{\ensuremath{Y_p}}
+ \newcommand{\As}{\ensuremath{A_s}}
+ \newcommand{\deltaR}{\ensuremath{\Delta_R^2}}
+ \newcommand{\nrun}{\ensuremath{dn_s/d\ln k}\xspace}
+ \newcommand{\alens}{\ensuremath{A_{L}}}
+ \newcommand{\ns}{\ensuremath{n_{s}}}
+ \newcommand{\ho}{\ensuremath{H_{0}}\xspace}
+ \newcommand{\muksq}{\ensuremath{\mu{\rm K}^2}}
+ \newcommand{\sumnu}{\ensuremath{\Sigma m_\nu}\xspace} 
+ \newcommand{\wmap}{\textit{WMAP}\xspace} 
+ \newcommand{\wseven}{\textit{WMAP}7} 
+ 
+%%% Define numbers
+% ns
+ \newcommand{\nsCmb}{\ensuremath{0.9623\pm0.0097}}
+ \newcommand{\nsCmbHo}{\ensuremath{0.9638\pm0.0090}}
+ \newcommand{\nsCmbBao}{\ensuremath{0.9515\pm0.0082}}
+ \newcommand{\nsCmbHoBao}{\ensuremath{0.9538\pm0.0081}}
+
+ \newcommand{\nsCdfCmb}{\ensuremath{3.9}}
+ \newcommand{\nsCdfCmbHo}{\ensuremath{4.0}}
+ \newcommand{\nsCdfCmbBao}{\ensuremath{6.0}}
+ \newcommand{\nsCdfCmbHoBao}{\ensuremath{5.7}}
+ \newcommand{\nsCdfCmbHoBaoNeff}{\ensuremath{2.5}}
+
+ \newcommand{\nsProbCmb}{\ensuremath{4 \times 10^{-5}}}
+ \newcommand{\nsProbCmbHo}{\ensuremath{3.1 \times 10^{-5}}}
+ \newcommand{\nsProbCmbBao}{\ensuremath{1.1 \times 10^{-9}}}
+ \newcommand{\nsProbCmbHoBao}{\ensuremath{7.0 \times 10^{-9}}}
+ \newcommand{\nsProbCmbHoBaoNeff}{\ensuremath{6.1 \times 10^{-3}}}
+
+% alens
+ \newcommand{\alensCdfSpt}{\ensuremath{5.9}}
+ \newcommand{\alensProbSpt}{\ensuremath{1.3 \times 10^{-9}}}
+ \newcommand{\alensCdfCmb}{\ensuremath{8.1}}
+ \newcommand{\alensProbCmb}{\ensuremath{2.4 \times 10^{-16}}}
+ \newcommand{\alensCmb}{\ensuremath{0.86^{+0.15 (+0.30)}_{-0.13 (-0.25)}}}
+
+% omk
+ \newcommand{\omkCmb}{\ensuremath{-0.003^{+0.014}_{-0.018}}}
+ \newcommand{\omkCmbHo}{\ensuremath{0.0018\pm0.0048}}
+ \newcommand{\omkCmbBao}{\ensuremath{-0.0089\pm0.0043}}
+ \newcommand{\omkCmbHoBao}{\ensuremath{-0.0059\pm0.0040}}
+ \newcommand{\omlCdfCmb}{\ensuremath{5.4}}
+
+
+ \hyphenation{DSFG}
+ \hyphenation{DSFGs}
+ \hyphenation{SPT}
+ \hyphenation{CMB}
+ \hyphenation{LensPix}
+
+ \def\microKsq{\mu{\mbox{K}}^2}
+ \def \zero {\textsc{ra5h30dec-55}}
+ \def \one {\textsc{ra23h30dec-55}}
+ \def \three {\textsc{ra21hdec-60}}
+ \def \four {\textsc{ra3h30dec-60}}
+ \def \five {\textsc{ra21hdec-50}}
+ \def \six {\textsc{ra4h10dec-50}}
+ \def \seven {\textsc{ra0h50dec-50}}
+ \def \eight {\textsc{ra2h30dec-50}}
+ \def \nine {\textsc{ra1hdec-60}}
+ \def \ten {\textsc{ra5h30dec-45}}
+ \def \eleven {\textsc{ra6h30dec-55}}
+ \def \twelve {\textsc{ra23hdec-62.5}}
+ \def \thirteen {\textsc{ra21hdec-42.5}}
+ \def \fourteen {\textsc{ra22h30dec-55}}
+ \def \fifteen {\textsc{ra23hdec-45}}
+ \def \sixteen {\textsc{ra6hdec-62.5}}
+ \def \seventeen {\textsc{ra3h30dec-42.5}}
+ \def \eighteen {\textsc{ra1hdec-42.5}}
+ \def \nineteen {\textsc{ra6h30dec-45}}
+
+
+
+ \def\cl{$C_{\ell}$\xspace}
+ \def\clnospace{\ensuremath{C_{\ell}}}
+ \def\dl{$D_{\ell}$}
+
+
+
+
+
+\begin{document}
+\title{A more potent test statistic of the standard cosmological model}
+
+ \author{Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, Dopey, White
+ }
+
+
+
+\email{btfollin@ucdavis.edu}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ABSTRACT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+It is commonly stated that the standard $\Lambda$-Cold Dark Matter ($\Lambda$CDM) cosmological model provides a good fit to the Cosmic Microwave Background (CMB).  These statements are based on a $\chi^2$ statistic, which tests the adequacy of the cosmology $+$ noise model in fitting each observed multipole in the CMB power spectrum.  Since the degrees of freedom associated with the noise greatly exceeds those associated with the 6 parameter $\Lambda$CDM model, this statistic is not particularly sensitive to deviations away from $\Lambda$CDM.  It is possible to construct a more discriminating statistic with increased sensitivity to changes in the cosmological model by appropriately compressing the data to reduce the noise degrees of freedom while preserving the signal degrees of freedom.  We present a method based on Linear Discriminant Analysis (LDA) on the space of possible deviations from $\Lambda$CDM, which outperforms other potential compression algorithms, such as multipole binning or principal component analysis of the signal covariance in detecting deviations from the $\Lambda$CDM model.  Heuristically, we find a small set of modes which maximize the ratio of fluxuations in potential signal over the noise variation  while projecting out directions excited by $\Lambda$CDM, thus finding the degrees of freedom which maximize (exotic) signal to noise.  We test this compression method against the optimal method of parameterization when the deviation from $\Lambda$CDM is known in the case of the sum of neutrino masses $\sum{\rm m_{\nu}}$.  We conclude by applying this compression to the CMB temperature spectrum as observed by WMAP$9$ + SPT.  
+\end{abstract}
+
+
+\keywords{placeholder}
+
+\bigskip\bigskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% INTRODUCTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+\label{sec:intro}
+\end{document}
+
